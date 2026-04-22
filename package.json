@@ -1,0 +1,10 @@
+{
+  "name": "@ai-webgpu-lab/shared-webgpu-capability",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared browser-side WebGPU capability and baseline result helpers for AI WebGPU Lab.",
+  "exports": {
+    ".": "./src/index.mjs"
+  }
+}
