@@ -14,6 +14,11 @@
 - `src/` - 재사용 가능한 모듈 또는 스크립트 구현
 - `docs/` - 사용법, 설계 메모, 소비자 통합 가이드
 
+## 조직 상태 대시보드
+- 전체 Pages/demo 상태는 `docs-lab-roadmap/docs/PAGES-STATUS.md`에서 확인합니다.
+- 이 저장소의 live demo는 `https://ai-webgpu-lab.github.io/shared-webgpu-capability/`에서 확인합니다.
+- 통합 sketch/adapter 상태는 `docs-lab-roadmap/docs/INTEGRATION-STATUS.md`에서 확인합니다.
+
 ## 운영 규칙
 - 공통화 후보는 둘 이상의 저장소에서 반복 사용되는 경우에만 승격합니다.
 - 공개 API나 워크플로우 입력/출력은 README와 `docs/`에 함께 문서화합니다.
