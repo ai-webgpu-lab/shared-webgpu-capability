@@ -18,6 +18,7 @@
 - 전체 Pages/demo 상태는 `docs-lab-roadmap/docs/PAGES-STATUS.md`에서 확인합니다.
 - 이 저장소의 live demo는 `https://ai-webgpu-lab.github.io/shared-webgpu-capability/`에서 확인합니다.
 - 통합 sketch/adapter 상태는 `docs-lab-roadmap/docs/INTEGRATION-STATUS.md`에서 확인합니다.
+- sketch capabilities는 `docs-lab-roadmap/docs/SKETCH-METRICS.md`에서 확인합니다.
 
 ## 운영 규칙
 - 공통화 후보는 둘 이상의 저장소에서 반복 사용되는 경우에만 승격합니다.
