@@ -1,0 +1,109 @@
+repo=shared-webgpu-capability
+scenario=shared-webgpu-capability Probe
+url_search=(default)
+captured_at=2026-05-20T15:47:25.996Z
+browser=Chromium 147.0.7727.15
+headless=true
+meta_scenario=shared-webgpu-capability-baseline
+status=success
+
+[page-console]
+(none)
+
+[harness-logs]
+./reports/logs/01-shared-webgpu-capability-baseline.log
+
+[result-json]
+{
+  "meta": {
+    "repo": "shared-webgpu-capability",
+    "commit": "bf4fa1e",
+    "timestamp": "2026-05-20T15:47:21.217Z",
+    "owner": "ai-webgpu-lab",
+    "track": "infra",
+    "scenario": "shared-webgpu-capability-baseline",
+    "notes": "adapter=WebGPU adapter; features=1; limits=10/10; automation=playwright-chromium",
+    "capture_context": {
+      "tool": "playwright-chromium",
+      "browser_name": "Chromium",
+      "browser_version": "147.0.7727.15",
+      "headless": true,
+      "captured_at": "2026-05-20T15:47:25.996Z",
+      "captured_by": "codex"
+    },
+    "capture_scenario_id": "01-shared-webgpu-capability-baseline"
+  },
+  "environment": {
+    "browser": {
+      "name": "Chrome",
+      "version": "147.0.7727.15"
+    },
+    "os": {
+      "name": "Linux",
+      "version": "unknown"
+    },
+    "device": {
+      "name": "Linux x86_64",
+      "class": "desktop-high",
+      "cpu": "16 threads",
+      "memory_gb": 32,
+      "power_mode": "unknown"
+    },
+    "gpu": {
+      "adapter": "WebGPU adapter",
+      "required_features": [
+        "core-features-and-limits"
+      ],
+      "limits": {
+        "maxTextureDimension1D": 8192,
+        "maxTextureDimension2D": 8192,
+        "maxTextureDimension3D": 2048,
+        "maxBindGroups": 4,
+        "maxBindingsPerBindGroup": 1000,
+        "maxUniformBufferBindingSize": 65536,
+        "maxStorageBufferBindingSize": 134217728,
+        "maxComputeInvocationsPerWorkgroup": 256,
+        "maxComputeWorkgroupStorageSize": 16384,
+        "maxBufferSize": 268435456
+      }
+    },
+    "backend": "webgpu",
+    "fallback_triggered": false,
+    "worker_mode": "main",
+    "cache_state": "warm"
+  },
+  "workload": {
+    "kind": "infra",
+    "name": "shared-webgpu-capability-baseline",
+    "input_profile": "webgpu-capable",
+    "model_id": "WebGPU adapter",
+    "dataset": "shared-webgpu-capability-v1"
+  },
+  "metrics": {
+    "common": {
+      "time_to_interactive_ms": 199.4,
+      "init_ms": 4.2,
+      "success_rate": 1,
+      "peak_memory_note": "32 GB reported by browser",
+      "error_type": ""
+    },
+    "infra": {
+      "helper_function_count": 7,
+      "capability_features_count": 1,
+      "capability_limit_count": 10,
+      "capability_limit_coverage_pct": 100,
+      "validated_field_count": 16,
+      "baseline_readiness_score": 98
+    }
+  },
+  "status": "success",
+  "artifacts": {
+    "raw_logs": [
+      "./reports/logs/01-shared-webgpu-capability-baseline.log"
+    ],
+    "deploy_url": "https://ai-webgpu-lab.github.io/shared-webgpu-capability/",
+    "screenshots": [
+      "./reports/screenshots/01-shared-webgpu-capability-baseline.png"
+    ]
+  }
+}
